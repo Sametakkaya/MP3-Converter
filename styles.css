@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+div{
+    width: 100%;
+    text-align: center;
+}
+form{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+hr{
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width:100%;
+}
+hr:after {
+    background: #fff;
+    content: '\266A \266A \266A';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+h2{
+    padding: 30px;
+    color: rgb(206, 34, 34);
+}
+h1{
+    padding-top: 25px;
+}
+.url-box{
+    width:35%;
+    height:30px;
+    border-color:rgb(206, 34, 34);
+}
+.url-box:after{
+    border-color: rgb(206, 34, 34);
+}
+.button{
+    width:12%;
+    height: 35px;
+    background-color: rgb(206, 34, 34);
+    color:white;
+    transition: 0.6s;
+    border-color: rgb(206, 34, 34);
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: black;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    color: rgb(206, 34, 34);
+}
+img{
+    width: 15%;
+}
+footer{
+    text-align: center;
+}
